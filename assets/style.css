@@ -1,7 +1,18 @@
-global {
+:root {
     --main-color: rgb(119, 119, 119);
     --secondary-color: rgb(56, 56, 56);
     --main-font-color: rgb(248, 248, 248);
     --secondary-font-color: rgb(167, 190, 206);
     --button-color: rgb(72, 90, 95);
+}
+
+aside{
+    width: 320px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    gap: 10px;
+
 }
