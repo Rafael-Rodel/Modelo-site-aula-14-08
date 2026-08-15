@@ -1,7 +1,53 @@
-global {
+:root {
     --main-color: rgb(119, 119, 119);
     --secondary-color: rgb(56, 56, 56);
     --main-font-color: rgb(248, 248, 248);
     --secondary-font-color: rgb(167, 190, 206);
     --button-color: rgb(72, 90, 95);
+}
+
+
+.card-article {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 40%;
+    
+    .card-header {
+        background-color: var(--secondary-color);
+        color: var(--main-font-color);
+        width: 100%;
+    }
+
+    .btn-leia-mais {
+        display: flex;
+        justify-content: end;
+    }
+    
+    .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        
+        
+        .artigo-destaque {
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+            padding: 20px;
+            
+        }
+
+        .mais-artigos {
+            padding-left: 10%;
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+        }
+    }
 }
