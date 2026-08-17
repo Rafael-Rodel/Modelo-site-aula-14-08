@@ -19,9 +19,9 @@
         </ul>
     </div>
     <div class="featuredPhotos">
-        <img src="../assets/images/luna.jpg" alt="gata roendo">
-        <img src="../assets/images/mordecai.jpg" alt="gaio azul">
-        <img src="../assets/images/rigby.jpg" alt="gata kaboom">
-        <img src="../assets/images/woody.jpg" alt="gato cowboy">
+        <img src="./assets/images/luna.jpg" alt="gata roendo">
+        <img src="./assets/images/mordecai.jpg" alt="gaio azul">
+        <img src="./assets/images/rigby.jpg" alt="gata kaboom">
+        <img src="./assets/images/woody.jpg" alt="gato cowboy">
     </div>
 </aside>

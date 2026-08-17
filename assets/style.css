@@ -45,3 +45,19 @@ aside {
     }
   }
 }
+
+.featuredPhotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  img {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
