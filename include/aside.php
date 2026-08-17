@@ -8,13 +8,15 @@
     <input type="search" class="searchBar" placeholder="Digite o termo e pressione enter">
     <div class="moreRead">
         <h2>MAIS LIDOS</h2>
-        <a href="">Noticia Irada 1</a>
-        <a href="">Noticia Irada 1</a>
-        <a href="">Noticia Irada 1</a>
-        <a href="">Noticia Irada 1</a>
-        <a href="">Noticia Irada 1</a>
-        <a href="">Noticia Irada 1</a>
-        <a href="">Noticia Irada 1</a>
+        <ul>
+            <li><a href="">Noticia Irada 1</a></li>
+            <li><a href="">Noticia Irada 1</a></li>
+            <li><a href="">Noticia Irada 1</a></li>
+            <li><a href="">Noticia Irada 1</a></li>
+            <li><a href="">Noticia Irada 1</a></li>
+            <li><a href="">Noticia Irada 1</a></li>
+            <li><a href="">Noticia Irada 1</a></li>
+        </ul>
     </div>
     <div class="featuredPhotos">
         <img src="../assets/images/luna.jpg" alt="gata roendo">
