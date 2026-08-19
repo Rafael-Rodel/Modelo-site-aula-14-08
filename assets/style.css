@@ -1,121 +1,163 @@
 :root {
-    --main-color: rgb(119, 119, 119);
-    --secondary-color: rgb(56, 56, 56);
-    --main-font-color: rgb(248, 248, 248);
-    --secondary-font-color: rgb(167, 190, 206);
-    --button-color: rgb(72, 90, 95);
+  --main-color: rgb(119, 119, 119);
+  --secondary-color: rgb(56, 56, 56);
+  --main-font-color: rgb(248, 248, 248);
+  --secondary-font-color: rgb(167, 190, 206);
+  --button-color: rgb(72, 90, 95);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-    width: 100%;
+  width: 100%;
 }
 
 .header-topo {
-    height: 140px;
-    background-color: var(--main-color);
+  height: 140px;
+  background-color: var(--main-color);
 }
 
 .navbar {
-    background-color: var(--secondary-color);
-    padding: 8px 20px;
+  background-color: var(--secondary-color);
+  padding: 8px 20px;
 }
 
 .navbar ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
 
 .navbar li {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navbar li:not(:last-child)::after {
-    content: "|";
-    color: var(--main-color);
-    margin: 0 10px;
+  content: "|";
+  color: var(--main-color);
+  margin: 0 10px;
 }
 
 .navbar a {
-    color: var(--secondary-font-color);
-    text-decoration: none;
-    font-size: 12px;
+  color: var(--secondary-font-color);
+  text-decoration: none;
+  font-size: 12px;
 }
 
 .navbar a:hover {
-    color: var(--main-font-color);
+  color: var(--main-font-color);
 }
 
 .cardDestaque {
-    width: 40%;
-    background-color: var(--main-color);
+  width: 40%;
+  background-color: var(--main-color);
 }
 
 .destaque {
-    margin: 0;
-    padding: 8px 10px;
-    background-color: var(--secondary-color);
-    color: var(--main-font-color);
-    font-size: 16px;
+  margin: 0;
+  padding: 8px 10px;
+  background-color: var(--secondary-color);
+  color: var(--main-font-color);
+  font-size: 16px;
 }
 
 .contentDestaque {
-    display: flex;
-    gap: 10px;
-    padding: 10px;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
 }
 
 .imagemDestaque {
-    width: 35%;
+  width: 35%;
 }
 
-
 .imagemDestaque img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .textDestaque {
-    width: 65%;
+  width: 65%;
 }
 
 .textDestaque h4 {
-    margin: 0 0 8px 0;
-    color: var(--main-font-color);
-    font-size: 18px;
+  margin: 0 0 8px 0;
+  color: var(--main-font-color);
+  font-size: 18px;
 }
 
 .textDestaque p {
-    margin: 0 0 10px 0;
-    color: var(--main-font-color);
-    font-size: 12px;
-    line-height: 1.4;
+  margin: 0 0 10px 0;
+  color: var(--main-font-color);
+  font-size: 12px;
+  line-height: 1.4;
 }
 
 .textDestaque a {
-    display: block;
-    width: fit-content;
-    margin-left: auto;
-    padding: 4px 7px;
-    background-color: var(--secondary-color);
-    color: var(--main-font-color);
-    font-size: 9px;
-    text-decoration: none;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  padding: 4px 7px;
+  background-color: var(--secondary-color);
+  color: var(--main-font-color);
+  font-size: 9px;
+  text-decoration: none;
 }
 
 .textDestaque a:hover {
-    background-color: var(--button-color);
+  background-color: var(--button-color);
+}
+
+.card-article {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  height: 40%;
+
+  .card-header {
+    background-color: var(--secondary-color);
+    color: var(--main-font-color);
+    width: 100%;
+  }
+
+  .btn-leia-mais {
+    display: flex;
+    justify-content: end;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+    .artigo-destaque {
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .mais-artigos {
+      padding-left: 10%;
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+    }
+  }
 }
