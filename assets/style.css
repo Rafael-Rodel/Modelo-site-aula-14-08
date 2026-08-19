@@ -161,3 +161,58 @@ body {
     }
   }
 }
+aside {
+  width: 300px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  gap: 10px;
+}
+
+.searchBar {
+  padding: 10px;
+  font-style: italic;
+}
+.moreRead {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  h2 {
+    margin: 0;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: rgb(27, 27, 27);
+    color: var(--main-font-color);
+    font-family: Arial;
+  }
+  ul {
+    list-style-type: disc;
+
+    a {
+      font-size: 18px;
+      text-decoration: none;
+      color: var(--secondary-color);
+      font-family: Arial;
+    }
+  }
+}
+
+.featuredPhotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  img {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    object-position: center;
+  }
+}

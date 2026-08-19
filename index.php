@@ -24,6 +24,10 @@
             ?>
     </div>
 
+    <?php
+    include_once('./include/aside.php');
+    ?>
+
 </body>
 
 </html>
