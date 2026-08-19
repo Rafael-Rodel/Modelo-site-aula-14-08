@@ -81,6 +81,7 @@ body {
     flex-direction: column;
     gap: 10px;
     margin: 10px;
+    height: 75%;
 
     .cardDestaque {
       background-color: var(--main-color);
@@ -131,10 +132,10 @@ body {
       display: block;
       width: fit-content;
       margin-left: auto;
-      padding: 4px 7px;
+      padding: 5px 8px;
       background-color: var(--secondary-color);
       color: var(--main-font-color);
-      font-size: 9px;
+      font-size: 12px;
       text-decoration: none;
     }
 
@@ -160,6 +161,13 @@ body {
       .btn-leia-mais {
         display: flex;
         justify-content: end;
+
+        button {
+          &:hover {
+            background-color: var(--button-color);
+            cursor: pointer;
+          }
+        }
       }
 
       .card-container {
@@ -268,7 +276,7 @@ body {
 
     img {
       width: 47%;
-      height: 40%;
+      height: 140px;
       object-fit: cover;
       object-position: center;
     }
