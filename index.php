@@ -12,5 +12,11 @@
 include_once("./include/header.php")
 ?>
 
+<div>
+    <?php 
+include_once("./include/article.php")
+?>
+</div>
+
 </body>
 </html>
