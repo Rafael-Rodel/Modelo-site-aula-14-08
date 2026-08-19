@@ -1,5 +1,5 @@
 <footer>
-    <nav>
+    <nav class="nav-footer">
         <a href="">JOBS</a>
         <a href="">CONTACT</a>
         <a href="">LEGAL</a>

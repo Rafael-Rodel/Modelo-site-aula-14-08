@@ -3,7 +3,7 @@ function cardsArticle($cardTitulo)
 {
     return (
         "<div class='card-article'>
-            <header class='card-header'>" . $cardTitulo . "</header>
+            <header class='card-header'><h3>" . $cardTitulo . "</h3></header>
             <div class='card-container'>
                 <div class='artigo-destaque'>
                     <h2>Artigo em destaque</h2>
@@ -13,7 +13,7 @@ function cardsArticle($cardTitulo)
                     </div>
                 </div>
                 
-                <h2>MAIS ARTIGOS</h2>
+                <h2 class='mais'>MAIS ARTIGOS</h2>
                 <div class='mais-artigos'>
                     <ul>
                         <li>Artigo sla eu</li>

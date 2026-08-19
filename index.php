@@ -10,22 +10,29 @@
 
 <body>
 
+
     <?php
     include_once("./include/header.php")
         ?>
 
-    <div>
-        <?php
-        include_once("./include/article.php")
+    <main>
+        <article class="container_artigos">
+            <?php
+            include_once("./include/article.php")
+                ?>
+            <?php
+            include_once("./components/cardsArticle.php");
+            echo "<section class='cards-container'>" . cardsArticle("PROGRAMAÇÃO") . cardsArticle("PROGRAMAS E APLICATIVOS") . "</section>";
             ?>
-        <?php
-        include_once("./components/cardsArticle.php");
-        echo cardsArticle("PROGRAMAÇÃO")
-            ?>
-    </div>
+        </article>
 
+        <?php
+        include_once('./include/aside.php');
+        ?>
+
+    </main>
     <?php
-    include_once('./include/aside.php');
+    include_once('./include/footer.php');
     ?>
 
 </body>
