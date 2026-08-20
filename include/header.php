@@ -14,7 +14,7 @@ $menu = [
 ];
 
 ?>
-
+<link rel="stylesheet" href="assets/style.css">
 <header class="header">
 
     <div class="header-topo">
