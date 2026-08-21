@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Marketing</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
@@ -19,11 +19,11 @@
     <article class="container_artigos">
         <?php
             include_once("./include/article.php");
-            echo article("DESTAQUES", "Corvos são a nova tendência!", "./assets/corvoCard01.png");
+            echo article("Marketing", "Marketing é foda", "./assets/marketing.jpg");
             ?>
             <?php
             include_once("./components/cardsArticle.php");
-            echo "<section class='cards-container'>" . cardsArticle("PROGRAMAÇÃO", "A ascensão python", ["Artigo1", "Artigo1", "Artigo1", "Artigo1"]) . cardsArticle("PROGRAMAS E APLICATIVOS", "Como o Instagram trata seus dados?", ["Artigo1", "Artigo1", "Artigo1", "Artigo1"]) . "</section>";
+            echo "<section class='cards-container'>" . cardsArticle("Publicidade", "A ascensão da publicidade", ["Artigo1", "Artigo1", "Artigo1", "Artigo1"]) . cardsArticle("Propaganda", "Qual a diferença?", ["Artigo1", "Artigo1", "Artigo1", "Artigo1"]) . "</section>";
             ?>
         </article>
 
