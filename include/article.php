@@ -1,11 +1,8 @@
-<?php
-
-function article($titulo, $artigo) {
-    return '<section>
+<section>
 
     <div class="cardDestaque">
 
-        <h3 class="destaque">'.$titulo.'</h3>
+        <h3 class="destaque">DESTAQUES</h3>
 
         <div class="contentDestaque">
 
@@ -15,7 +12,7 @@ function article($titulo, $artigo) {
 
             <div class="textDestaque">
 
-                <h4>'.$artigo.'</h4>
+                <h4>Corvos são a nova tendência!</h4>
 
                 <p>
                     Os corvos estão conquistando cada vez mais espaço e se
@@ -24,7 +21,7 @@ function article($titulo, $artigo) {
                     o visual com um toque sombrio e fascinante.
                 </p>
 
-                <a href="./noticia.php?titulo=' . urlencode($titulo) . '&artigo='. urlencode($artigo) .'">LEIA MAIS</a>
+                <a href="#">LEIA MAIS</a>
 
             </div>
 
@@ -32,7 +29,4 @@ function article($titulo, $artigo) {
 
     </div>
 
-</section>';
-}
-
-?>
+</section>

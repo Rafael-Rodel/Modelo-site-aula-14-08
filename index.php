@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Document</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
@@ -12,18 +12,17 @@
 
 
     <?php
-    include_once("./include/header.php");
-    ?>
+    include_once("./include/header.php")
+        ?>
 
-<main>
-    <article class="container_artigos">
-        <?php
-            include_once("./include/article.php");
-            echo article("DESTAQUES", "Corvos são a nova tendência!");
-            ?>
+    <main>
+        <article class="container_artigos">
+            <?php
+            include_once("./include/article.php")
+                ?>
             <?php
             include_once("./components/cardsArticle.php");
-            echo "<section class='cards-container'>" . cardsArticle("PROGRAMAÇÃO", "A ascensão python", ["Artigo1", "Artigo1", "Artigo1", "Artigo1"]) . cardsArticle("PROGRAMAS E APLICATIVOS", "Como o Instagram trata seus dados?", ["Artigo1", "Artigo1", "Artigo1", "Artigo1"]) . "</section>";
+            echo "<section class='cards-container'>" . cardsArticle("PROGRAMAÇÃO") . cardsArticle("PROGRAMAS E APLICATIVOS") . "</section>";
             ?>
         </article>
 
