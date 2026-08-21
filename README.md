@@ -1,6 +1,6 @@
 # Modelo Site PHP
 
-Mini projeto desenvolvido em **PHP, HTML e CSS** com o objetivo de criar uma estrutura reutilizável para um site de artigos/notícias.
+Projeto desenvolvido em **PHP, HTML e CSS** com o objetivo de criar uma estrutura para um site de artigos/notícias.
 
 O projeto utiliza componentes PHP para evitar a repetição de elementos como cabeçalho, rodapé, artigos, cards e barra lateral.
 
@@ -389,6 +389,3 @@ Por exemplo, uma alteração realizada em `header.php` será refletida nas pági
 
 O projeto possui uma estrutura inicial funcional para criação de páginas de conteúdo utilizando PHP.
 
-Algumas opções existentes no menu ainda apontam para páginas que não aparecem na estrutura atual do projeto e podem ser implementadas posteriormente.
-
-O arquivo `components/functions.php` também está disponível para receber funções compartilhadas conforme novas funcionalidades forem adicionadas.
