@@ -22,7 +22,12 @@
             </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolores expedita tenetur corrupti ab
                 doloribus modi velit</p>
-            <img src="https://visitrio.com.br/wp-content/uploads/2024/10/por-do-sol-no-rio.jpg" alt="">
+
+            <?php
+$imagem = $_GET['imagem'] ?? "https://visitrio.com.br/wp-content/uploads/2024/10/por-do-sol-no-rio.jpg";
+
+echo "<img src='" . htmlspecialchars($imagem) . "'>";
+?>
         </div>
         <div class="paragrafos">
             <div class="texto1">

@@ -1,6 +1,6 @@
 <?php
 
-function article($titulo, $artigo) {
+function article($titulo, $artigo, $imagem) {
     return '<section>
 
     <div class="cardDestaque">
@@ -10,7 +10,7 @@ function article($titulo, $artigo) {
         <div class="contentDestaque">
 
             <div class="imagemDestaque">
-                <img src="./assets/corvoCard01.png" alt="">
+                <img src='.$imagem.' alt="">
             </div>
 
             <div class="textDestaque">
@@ -24,8 +24,9 @@ function article($titulo, $artigo) {
                     o visual com um toque sombrio e fascinante.
                 </p>
 
-                <a href="./noticia.php?titulo=' . urlencode($titulo) . '&artigo='. urlencode($artigo) .'">LEIA MAIS</a>
-
+                <a href="./noticia.php?titulo='.urlencode($titulo).'&artigo='.urlencode($artigo).'&imagem='.urlencode($imagem).'">
+    LEIA MAIS
+</a>
             </div>
 
         </div>

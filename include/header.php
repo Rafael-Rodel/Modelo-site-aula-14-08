@@ -1,8 +1,8 @@
 <?php
 
 $menu = [
-    "Home" => "index.php",
-    "Marketing" => "marketing.php",
+    "Home" => "./index.php",
+    "Marketing" => "./marketing.php",
     "Internet" => "internet.php",
     "Ganhar Dinheiro" => "ganhar-dinheiro.php",
     "Webmaster" => "webmaster.php",
