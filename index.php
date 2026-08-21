@@ -12,17 +12,18 @@
 
 
     <?php
-    include_once("./include/header.php")
-        ?>
+    include_once("./include/header.php");
+    ?>
 
-    <main>
-        <article class="container_artigos">
-            <?php
-            include_once("./include/article.php")
-                ?>
+<main>
+    <article class="container_artigos">
+        <?php
+            include_once("./include/article.php");
+            echo article("DESTAQUES", "Corvos são a nova tendência!");
+            ?>
             <?php
             include_once("./components/cardsArticle.php");
-            echo "<section class='cards-container'>" . cardsArticle("PROGRAMAÇÃO") . cardsArticle("PROGRAMAS E APLICATIVOS") . "</section>";
+            echo "<section class='cards-container'>" . cardsArticle("PROGRAMAÇÃO", "A ascensão python", ["Artigo1", "Artigo1", "Artigo1", "Artigo1"]) . cardsArticle("PROGRAMAS E APLICATIVOS", "Como o Instagram trata seus dados?", ["Artigo1", "Artigo1", "Artigo1", "Artigo1"]) . "</section>";
             ?>
         </article>
 
