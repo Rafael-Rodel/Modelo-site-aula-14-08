@@ -1,21 +1,22 @@
 <?php
 
 $menu = [
-    "Home" => "./index.php",
-    "Marketing" => "./marketing.php",
-    "Internet" => "internet.php",
-    "Ganhar Dinheiro" => "ganhar-dinheiro.php",
-    "Webmaster" => "webmaster.php",
-    "Scripts" => "scripts.php",
-    "Software" => "software.php",
-    "Comércio Eletrônico" => "comercio-eletronico.php",
-    "Downloads" => "downloads.php",
-    "Contato" => "contato.php"
+    "Home" => "/",
+    "Marketing" => "/marketing.php",
+    "Internet" => "/internet.php",
+    "Ganhar Dinheiro" => "/ganhar-dinheiro.php",
+    "Webmaster" => "/webmaster.php",
+    "Scripts" => "/scripts.php",
+    "Software" => "/software.php",
+    "Comércio Eletrônico" => "/comercio-eletronico.php",
+    "Downloads" => "/downloads.php",
+    "Contato" => "/contato.php"
 ];
 
 ?>
 
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="/assets/style.css">
+
 <header class="header">
 
     <div class="header-topo">
@@ -32,6 +33,7 @@ $menu = [
                         <?= $nome ?>
                     </a>
                 </li>
+
                 <p></p>
 
             <?php endforeach; ?>
